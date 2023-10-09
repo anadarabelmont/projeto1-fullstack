@@ -1,0 +1,30 @@
+html, body{
+  font-family: 'Poppins', sans-serif;
+}
+/*navegação*/
+
+
+.searchbutton{
+  color: #68b0ab;
+  border: 1px solid #68b0ab;
+}
+
+.searchbutton:hover{
+background-color: #68b0ab;
+}
+
+.menulink{
+  color: #68b0ab;
+}
+
+
+/*fim navegação*/
+
+/*slides*/
+.slidescarousel{
+  height: 80vh;
+}
+
+/*fim slides*/
+
+/*home*/

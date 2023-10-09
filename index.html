@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Degustapão</title>
+  <link href="https://fonts.cdnfonts.com/css/baristo" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+  <!--Nav-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="img/Degustapão.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-success my-2 my-sm-0 searchbutton" type="submit">Pesquisar</button>
+      </form>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link menulink" href="#">Home <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menulink" href="#">Sobre</a>
+        </li>
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Receitas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item menulink" href="#">Pães franceses</a>
+            <a class="dropdown-item menulink" href="#">Pães italianos</a>
+            <a class="dropdown-item menulink" href="#">Pães de forma</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item menulink" href="#">Fitness</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class=" btn btn-outline-primary ml-md-4" href="#">Cadastre-se</a>
+        </li>
+      </ul>
+
+
+    </div>
+  </nav>
+  <!--End nav-->
+
+  <!--Slider-->
+<section class="container-fluid">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active slidescarousel">
+        <img class="d-block w-100" src="img/massas.jpg" alt="Primeiro Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="display-2">Pão Italiano</h5>
+          <p>Descubra as melhores combinações de recheios!</p>
+        </div>
+      </div>
+      <div class="carousel-item slidescarousel">
+        <img class="d-block w-100" src="img/paoitaliano.jpg" alt="Segundo Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="display-2">Folhados</h5>
+          <p>Receiras de folhados perfeitos!</p>
+        </div>
+      </div>
+      <div class="carousel-item slidescarousel">
+        <img class="d-block w-100" src="img/sovar.jpg" alt="Terceiro Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="display-2">Sovar?</h5>
+          <p>Saiba diferentes tipos de sova para diferentes resultados!</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+</section>
+  <!--End slider-->
+
+  <!--Recipes-->
+<section class="py-5 bg-light text-center">
+  <div class="container py-5">
+    <h4 class="d-block">Últimas receitas</h4>
+
+    <div class="row mt-5">
+      <div class="col-4">
+        <img style="border-radius: 8px;" class="mb-4" src="img/col1.jpg" alt="paoaustraliano">
+        <h3>Pão Australiano</h3>
+        <p>Aprenda a fazer pães australianos</p>
+      </div>
+      <div class="col-4">
+        <img style="border-radius: 8px;" class="mb-4" src="img/col2.jpg" alt="paoaustraliano">
+        <h3>Pães para brunch</h3>
+        <p>Faça o brunch dos sonhos</p>
+      </div>
+      <div class="col-4">
+        <img style="border-radius: 8px;" class="mb-4" src="img/col3.jpg" alt="paoaustraliano">
+        <h3>Pão Australiano</h3>
+        <p>Aprenda a fazer pães australianos</p>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-4">
+        <img style="border-radius: 8px;" class="mb-4" src="img/col4.jpg" alt="paoaustraliano">
+        <h3>Pão Italiano</h3>
+        <p>Aprenda o segredo do pão italiano</p>
+      </div>
+      <div class="col-4">
+        <img style="border-radius: 8px;" class="mb-4" src="img/col5.jpg" alt="paoaustraliano">
+        <h3>Pães com grãos</h3>
+        <p>Faça você mesmo seu pão com grãos</p>
+      </div>
+      <div class="col-4">
+        <img style="border-radius: 8px;" class="mb-4" src="img/col6.jpg" alt="paoaustraliano">
+        <h3>Posso comer sua rosquinha?</h3>
+        <p>Roscas hehe</p>
+      </div>
+    </div>
+
+    </div>
+ 
+
+</section>
+  <!--end recipes-->
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
